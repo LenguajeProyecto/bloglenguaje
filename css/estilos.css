@@ -1,0 +1,407 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.titulo{ 
+    color: #28152c;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*Header*/
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #0f2027; 
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(198, 44%, 11%, 0.664), hsla(195, 35%, 19%, 0.692), hsla(198, 39%, 28%, 0.699)),url(../img/city-water-buildings-building-3633115.jpg);
+    background: linear-gradient(to right, hsla(198, 44%, 11%, 0.664), hsla(195, 35%, 19%, 0.692), hsla(198, 39%, 28%, 0.699)),url(../img/city-water-buildings-building-3633115.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+ul, ol {
+    list-style:none;
+   }
+   
+   .nav > li {
+    float:left;
+   }
+   
+   .nav li a {
+    background-color:hsla(0, 0%, 0%, 0.185);
+    color:#fff;
+    text-decoration:none;
+    padding:20px 25px;
+    display:block;
+   }
+   
+   .nav li a:hover {
+    background-color:rgba(67, 67, 67, 0.678);
+   }
+   
+   .nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+   }
+   
+   .nav li:hover > ul {
+    display:block;
+   }
+   
+   .nav li ul li {
+    position:relative;
+   }
+   
+   .nav li ul li ul {
+    right:-140px;
+    top:0px;
+   }
+
+.textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header-img{
+    font-weight: 10px;
+}
+ 
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300px;
+    color: #fff;
+}
+    
+
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ 
+/*primera parte*/
+.primera-parte{
+    background: #ffffff;
+}
+
+
+.primera-parte h2{
+    color:  #28152c;
+    text-align: center;
+    font-size: 40px;
+    height: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+.primera-parte h1{
+    color:  #28152c;
+    text-align: center;
+    position: initial;
+    font-size: 25px;
+}
+
+.primera-parte h3{
+    color:  #28152c;
+    text-align: center;
+    bottom: 15px;
+    font-size: 45px;
+    margin-top: 50px;
+
+}
+
+.primera-parte h4{
+    color: #28152c;
+    text-align: left;
+    bottom: 15px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.primera-parte p{
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    font-weight: 300;
+    color: initial;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+
+
+
+
+/*about us*/
+
+.contenedor-sobre-nosotros{
+   display: initial;
+   justify-content:space-evenly; 
+}
+
+.imagen-about-us{
+    width: 48%;
+
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.primera-parte {
+   text-align: center;
+}
+
+
+
+.Contenido-textos h2{
+  margin-bottom: 15px;
+}
+
+.Contenido-textos h2 span{
+    background:  #28152c;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    padding: 5px;
+    height: 30px;
+    box-shadow: 0 0 6x 0 rgba(0,0,0,.5);
+    margin-right: 5px;
+   
+}
+
+.Contenido-textos p{
+    padding: 0px 0px 30px 0px;
+    text-align: justify;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+/*Hay que meter un h4 para el titulos de los contenido utilizar text-justify*/ 
+
+.Contenido-textos h3{
+   margin-bottom: 15px;
+}
+
+.Contenido-textos h3 span{
+    text-align: center;
+}
+
+/*galeria*//*hay que meterle mas imagenes al portafolio*/
+
+.portafolio{
+    background: #ffffff;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: initial;
+    margin-bottom: initial;
+}
+
+.portafolio h2{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 45px;
+
+}
+
+.portafolio h2 span{
+    background:  #28152c;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    padding: 5px;
+    height: 30px;
+    box-shadow: 0 0 6x 0 rgba(0,0,0,.5);
+    margin-top: 20px;
+}
+
+.portafolio h3{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.portafolio h3 span{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.portafolio h4{
+    text-align:left;
+    margin-top: 30px;
+    text-align: center;
+    
+
+}
+
+.portafolio p{
+    text-align: left;
+    padding: 0px 0px 30px 0px;
+    font-weight: 300;
+    margin-top: 10px;
+    
+}
+/*ubicacion de los videos conferencias*/
+.contenedor h1{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+.contenedor h1 span{
+    background:  #28152c;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    padding: 5px;
+    height: 30px;
+    box-shadow: 0 0 6x 0 rgba(0,0,0,.5);
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.contenedor h2{
+    margin-bottom: 15px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.contenedor h2 span{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.contenedor p{
+    text-align: justify;
+    padding: 0px 0px 30px 0px;
+    font-weight: 300; 
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+
+}
+
+
+
+.menu {
+    text-align: left;
+    width: 1000px;
+    background-color: #fff;
+
+   
+}
+
+.contenedor h3{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+
+    .contenedor h5{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+
+/*agredecimientos*/
+
+.Agradecimientos h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+.Agradecimientos p{
+    font-size: 20px;
+}
+/*footer*/
+.contenedor-footer{
+    background: #0f2027;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto ;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contenedor-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.contenedor-footer h2{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
